@@ -47,6 +47,7 @@ $(".step1").click(function() {
     $(".form_block").removeClass("active");
     $(this).addClass("active");
     $(".form_block1").addClass("active");
+    $(".form_buttons").removeClass("none");
 });
 $(".step2").click(function() {
     $(".step").removeClass("active");
@@ -55,6 +56,7 @@ $(".step2").click(function() {
     $(".step1").addClass("done");
     $(this).addClass("active");
     $(".form_block2").addClass("active");
+    $(".form_buttons").removeClass("none");
 });
 $(".step3").click(function() {
     $(".step").removeClass("active");
@@ -64,6 +66,7 @@ $(".step3").click(function() {
     $(".step2").addClass("done");
     $(this).addClass("active");
     $(".form_block3").addClass("active");
+    $(".form_buttons").removeClass("none");
 });
 $(".step4").click(function() {
     $(".step").removeClass("active");
@@ -74,6 +77,7 @@ $(".step4").click(function() {
     $(".step3").addClass("done");
     $(this).addClass("active");
     $(".form_block4").addClass("active");
+    $(".form_buttons").removeClass("none");
 });
 $(".step5").click(function() {
     $(".step").removeClass("active");
@@ -85,6 +89,7 @@ $(".step5").click(function() {
     $(".step4").addClass("done");
     $(this).addClass("active");
     $(".form_block5").addClass("active");
+    $(".form_buttons").addClass("none");
 });
 
 $(".btn_prev").click(function() {
