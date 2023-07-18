@@ -41,6 +41,52 @@ $(".btn_next").click(function() {
     }
 });
 
+$(".step1").click(function() {
+    $(".step").removeClass("active");
+    $(".step").removeClass("done");
+    $(".form_block").removeClass("active");
+    $(this).addClass("active");
+    $(".form_block1").addClass("active");
+});
+$(".step2").click(function() {
+    $(".step").removeClass("active");
+    $(".step").removeClass("done");
+    $(".form_block").removeClass("active");
+    $(".step1").addClass("done");
+    $(this).addClass("active");
+    $(".form_block2").addClass("active");
+});
+$(".step3").click(function() {
+    $(".step").removeClass("active");
+    $(".step").removeClass("done");
+    $(".form_block").removeClass("active");
+    $(".step1").addClass("done");
+    $(".step2").addClass("done");
+    $(this).addClass("active");
+    $(".form_block3").addClass("active");
+});
+$(".step4").click(function() {
+    $(".step").removeClass("active");
+    $(".step").removeClass("done");
+    $(".form_block").removeClass("active");
+    $(".step1").addClass("done");
+    $(".step2").addClass("done");
+    $(".step3").addClass("done");
+    $(this).addClass("active");
+    $(".form_block4").addClass("active");
+});
+$(".step5").click(function() {
+    $(".step").removeClass("active");
+    $(".step").removeClass("done");
+    $(".form_block").removeClass("active");
+    $(".step1").addClass("done");
+    $(".step2").addClass("done");
+    $(".step3").addClass("done");
+    $(".step4").addClass("done");
+    $(this).addClass("active");
+    $(".form_block5").addClass("active");
+});
+
 $(".btn_prev").click(function() {
     var valattr = $(".form_block.active").attr('data-number');
     let num = Number(valattr);
