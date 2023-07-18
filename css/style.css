@@ -280,6 +280,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 .aside_steps .step .num {
   display: -webkit-box;
